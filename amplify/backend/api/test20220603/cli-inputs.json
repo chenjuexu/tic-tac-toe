@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "test20220603",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "F:\\my-app\\amplify\\backend\\api\\test20220603\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authtest202206030639af2e"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}

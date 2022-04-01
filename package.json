@@ -11,18 +11,31 @@
     "typecheck": "tsc",
     "format:check": "npx prettier --check \"**/*.{js,jsx,json,ts,tsx}\"",
     "format": "npx prettier --write \"**/*.{js,jsx,json,ts,tsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\""
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "amplify-modelgen": "node amplify\\scripts\\amplify-modelgen.js",
+    "amplify-push": "node amplify\\scripts\\amplify-push.js"
   },
   "dependencies": {
     "@expo-google-fonts/delius-unicase": "^0.2.2",
-    "@expo-google-fonts/roboto": "^0.2.0",
+    "@expo-google-fonts/roboto": "^0.2.2",
+    "@expo/config": "^6.0.18",
+    "@expo/webpack-config": "^0.16.18",
     "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/clipboard": "^1.5.1",
+    "@react-native-community/netinfo": "7.1.3",
+    "@react-native-picker/picker": "2.2.1",
+    "@react-navigation/elements": "^1.3.1",
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/native-stack": "^6.2.5",
     "@react-navigation/stack": "^6.0.11",
+    "@twotalltotems/react-native-otp-input": "1.3.7",
+    "amazon-cognito-identity-js": "^5.2.7",
+    "aws-amplify": "^4.3.15",
+    "aws-amplify-react-native": "^6.0.3",
     "expo": "~44.0.0",
     "expo-app-loading": "~1.3.0",
     "expo-av": "~10.2.0",
+    "expo-device": "~4.1.0",
     "expo-font": "~10.0.4",
     "expo-haptics": "~11.1.0",
     "expo-linear-gradient": "~11.0.3",
@@ -32,6 +45,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
+    "react-native-gesture-handler": "~2.1.0",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.10.1",
     "react-native-web": "0.17.1"
@@ -50,7 +64,12 @@
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.64.12",
     "husky": "^7.0.4",
+    "ini": "^1.3.5",
+    "inquirer": "^6.5.1",
     "typescript": "~4.3.5"
   },
-  "private": true
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

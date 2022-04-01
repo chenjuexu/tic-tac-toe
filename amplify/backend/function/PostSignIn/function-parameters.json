@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "api": {
+      "test20220603": [
+        "Query"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
